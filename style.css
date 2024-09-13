@@ -1,0 +1,166 @@
+html {
+    margin: 0px;
+}
+
+body {
+    font-family: Helvetica, Arial, Sans-Serif;   
+    margin: 0px;
+} 
+
+#logo {  
+    margin: 0px;
+    padding: 8px;
+    font-size: 3vw;
+    font-family: "Fredoka One", sans-serif;
+    width: 18%;
+    white-space: nowrap;
+    text-shadow: 1px 1px 0px black, -1px 1px 0px black, 1px -1px 0px black, -1px -1px 0px black;
+}
+
+ul {
+    margin: 0px;
+    list-style-type: none;
+}
+
+body > header {
+    background-color: rgb(21, 196, 59);
+    color: whitesmoke;
+    display: flex;
+    height: 12vh;
+    align-items: center;
+    justify-content: space-around;
+}
+
+#main-header {
+
+}
+
+#nav-ul {
+    display: flex;
+}
+
+#nav-ul > li {
+    padding: 8px;
+    margin: 16px;
+}
+
+body > header > nav > ul {
+    list-style: none;
+    text-decoration: none;
+    font-size: 1.5vw;
+}
+
+body > header > nav > ul > li > a {
+    eg
+}
+
+.navbutton{
+    color: white;
+    text-decoration: none;
+    padding: 1px;
+    border: 1px solid white;
+    border-radius: 10%;
+}
+
+aside {
+    width: 25%;
+    padding: 10px;
+    background-color: white;
+    border-right: 2px solid black; /* Add vertical line to the right of aside */
+  }
+
+body > main article {
+    width: 75%;
+    margin: auto;
+}
+
+#main-content {
+    display: flex;
+    justify-content: space-around;
+    background-color: rgb(183, 245, 196);
+}
+
+#main-content > div {
+    width: 99%;
+}
+
+form {
+    text-align: center;
+}
+
+h2 {
+    text-align: center;
+}
+
+body > footer {
+    background-color: rgb(21, 196, 59);
+    display: flex;
+    color: white;
+}
+
+img {
+    border-radius: 5%;
+    display: block;
+    margin: 0 auto;
+}
+
+#main_2 {
+    background-color: rgb(183, 245, 196);
+}
+
+form {
+    background-color: rgb(183, 245, 196);
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+label {
+    display: block;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+
+.inputs-group {
+    display: flex;
+    flex-direction: column;
+}
+
+.inputs-group input {
+    margin-bottom: 10px;
+    padding: 8px;
+    box-sizing: border-box;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+#footer-ul {
+    display: flex;
+    list-style: none;
+}
+
+#footer-ul > div > li {
+    margin-left: 12px;
+}
+
+#footer-ul > div > li > a {
+    text-decoration: none;
+    color: white;
+}
